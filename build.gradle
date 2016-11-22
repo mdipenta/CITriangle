@@ -17,7 +17,7 @@ apply plugin: 'com.palantir.jacoco-coverage'
 
 jacocoCoverage {
     // Enforce minimum code coverage of 80% for every Java file.
-    fileThreshold 0.8
+    fileThreshold 0.3
 
     // Whitelist files named MyClass.java from coverage requirements.
     //fileThreshold 0.0, "Triangle.java"
