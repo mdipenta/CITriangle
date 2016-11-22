@@ -21,7 +21,7 @@ public class TriangleTest {
 
 	@Test
 	public void test1() {
-		assertEquals(Triangle.classify(1, 1, 2),TriangleType.EQUILATERAL);
+		assertEquals(Triangle.classify(1, 1, 1),TriangleType.EQUILATERAL);
 	}
 	
 	@Test
